@@ -1,2 +1,2 @@
 # RecyclerView
-Esempio di una recyclerview
+Esempio di una recyclerview con CardView

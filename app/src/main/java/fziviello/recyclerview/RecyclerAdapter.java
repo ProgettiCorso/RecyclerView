@@ -38,9 +38,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onBindViewHolder(RecyclerAdapter.ViewHolder holder, int position) {
 
-        Glide.with(ctx)
+        try {
+            Glide.with(ctx)
                 .load(listNews.get(position).getIcon())
                 .into(holder.icon);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         holder.titolo.setText(listNews.get(position).getTitolo());
         holder.desc.setText(listNews.get(position).getDesc());
 

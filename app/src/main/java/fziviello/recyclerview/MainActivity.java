@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayNews.add(newsModel);
 
+        newsModel= new NewsModel();
+
+        newsModel.setTitolo("secondo Titolo");
+        newsModel.setDesc("secondo Desc");
+        newsModel.setIcon("http://via.placeholder.com/200.png");
+
+        ArrayNews.add(newsModel);
+
         recyclerView=findViewById(R.id.MyRecyledView);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
