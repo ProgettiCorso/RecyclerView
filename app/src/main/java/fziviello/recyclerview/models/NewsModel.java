@@ -1,4 +1,4 @@
-package fziviello.recyclerview;
+package fziviello.recyclerview.models;
 
 /**
  * Created by fziviello on 02/02/18.

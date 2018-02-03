@@ -1,4 +1,4 @@
-package fziviello.recyclerview;
+package fziviello.recyclerview.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
+
+import fziviello.recyclerview.R;
+import fziviello.recyclerview.models.NewsModel;
 
 /**
  * Created by fziviello on 02/02/18.
