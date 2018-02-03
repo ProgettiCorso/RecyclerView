@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
+
 import fziviello.recyclerview.interfaces.MainInterface;
 import fziviello.recyclerview.interfaces.MainPresenter;
 import fziviello.recyclerview.R;
@@ -29,4 +31,9 @@ public class MainActivity extends AppCompatActivity  implements MainInterface{
 
     }
 
+    @Override
+    public void toast(String msg) {
+        Toast toast = Toast.makeText(this, msg , Toast.LENGTH_SHORT);
+        toast.show();
+    }
 }

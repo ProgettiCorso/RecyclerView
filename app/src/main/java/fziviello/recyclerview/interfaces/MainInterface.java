@@ -6,6 +6,6 @@ package fziviello.recyclerview.interfaces;
 
 public interface MainInterface {
 
-
+    void toast(String msg);
 
 }

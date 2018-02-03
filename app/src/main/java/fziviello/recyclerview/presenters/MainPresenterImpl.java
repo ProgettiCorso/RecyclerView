@@ -39,6 +39,8 @@ public class MainPresenterImpl implements MainPresenter{
 
         ArrayNews.add(newsModel);
 
+        mainInterface.toast("Dati Caricati!");
+
         return ArrayNews;
 
     }
